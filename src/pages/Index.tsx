@@ -14,7 +14,7 @@ const Index = () => {
           </p>
           <div className="flex justify-center">
             <img
-              src="/SAPmiclogo.png"
+              src={`${import.meta.env.BASE_URL}SAPmiclogo.png`}
               alt="WBAI Microphone"
               className="w-24 h-auto"
               loading="lazy"
